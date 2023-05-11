@@ -20,6 +20,8 @@ cc_library_shared {
 
     local_include_dirs: ["inc"],
 
+    header_libs: ["libarpal_headers"],
+
     shared_libs: [
         "libbase",
         "liblog",
